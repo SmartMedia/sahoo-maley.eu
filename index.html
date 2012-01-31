@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="shortcut icon" href="/favicon.ico">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="Content-language" content="en">
+	<meta name="description" content="Provider of integrated internet marketing and development services.">
+	<meta name="keywords" content="internet marketing, marketing strategies, webdesign, mobile applications, facebook applications, social media marketing, web analytics, SEO, start-ups, web startups, investors, investments">
+	<meta name="author" content="Meebio, s.r.o.">
+	<meta name="robots" content="all,follow">
+	<meta name="googlebot" content="index,follow,snippet,archive">
+	<title>Sahoo & Maley Investments</title>
+	<link rel="stylesheet" href="/css/style-main.css" title="all" type="text/css" media="screen">
+	<script type="text/javascript" src="/libraries/jquery.js"></script>
+	<script type="text/javascript" src="/libraries/jquery-cookie.js"></script>
+	<script type="text/javascript" src="/libraries/jquery-ui.js"></script>
+	<script type="text/javascript" src="/libraries/tiptip/tiptip.js"></script>
+	<script type="text/javascript">
+		$().ready(function() {
+			$('a, a img, span, .vtip').tipTip();
+			  
+		  $(".companies a").hover(function() {
+			  $(this).stop().animate({marginTop: "-7px"}, 200);
+			}, function() {
+			  $(this).stop().animate({marginTop: "0px"}, 300);
+			});
+			
+			$('a[href*="#"]').click(function() {
+				var elementClicked = $(this).attr("href");
+				var destination = $(elementClicked).offset().top;
+				$("html:not(:animated),body:not(:animated)").animate({ scrollTop: destination-20}, 500 );
+				return false;
+			});
+		});
+	</script>
+</head>
+
+<body id="nahoru" class="body">
+<h1>Sahoo & Maley Investments</h1>
+
+<div class="body-container">
+	<div class="main">
+		<div class="logo"></div>
+		<h2 class="text-shadow-white">Our companies</h2>
+		<div class="companies">
+			<a href="http://www.sunmarketing.cz" class="sun" title="Marketing strategies integrating performance advertising, social media media, web analytics and search engine optimization. Everything you need to succeed on the internet."><img src="/images/gr/sun.png" alt="Sun Marketing, s.r.o."></a>
+			<a href="http://www.meebio.cz" class="meebio" title="Your website work 24/7 on your behalf and thus deserve a top notch care. Excellence in webdesign is our passion."><img src="/images/gr/meebio.png" alt="Meebio, s.r.o."></a>
+			<a href="http://www.smartmedia.cz" class="smart" title="Need an application for smartphone, tablet, or Facebook? Need a new advanced web application? We are the solution."><img src="/images/gr/smart.png" alt="Smart Media Agency, s.r.o."></a>
+			<div class="clear"></div>
+		</div>
+		<h2 class="text-shadow-white">Contact</h2>
+		<div class="contacts-electronic">
+			<div>
+				<span>Telephone:</span> +420 222 518 843
+			</div>
+			<div>
+				<span>Fax:</span> +420 222 362 476
+			</div>
+			<div>
+				<span>E-mail:</span> <a href="mailto:info@sahoo-maley.eu">info@sahoo-maley.eu</a>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="contacts-address">
+			<div>
+				<span>Address:</span> Hybernská 1271/32, 110 00 Praha 1, Czech republic
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

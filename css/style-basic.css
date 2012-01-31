@@ -1,0 +1,197 @@
+@charset "utf-8";
+
+/* -SYSTÉMOVÉ DEKLARACE- */
+body {
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, arial, verdana, tahoma, sans-serif;
+}
+
+
+/* -ODKAZY- */
+* a {
+	outline: none;
+	cursor: pointer;
+}
+a {
+	text-decoration: underline;
+	color: #999999;
+}
+a:active {
+	/*
+position: relative;
+	top: 1px;
+*/
+}
+a:hover {
+	text-decoration: none;
+}
+a:visited {
+	
+}
+a img {
+	border: none;
+}
+
+strong {
+	color: #FF767F;
+	font-weight: bold;
+}
+
+/* -MENU A SEZNAMY- */
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.content-right ul {
+	margin: 0 0 15px 22px;
+	line-height: 160%;
+	color: #555555;
+	list-style: circle outside;
+}
+ul ul {
+	margin-left: 5px;
+}
+.main-menu ul {
+	list-style: none;
+}
+
+ol {
+	list-style: decimal outside;
+	margin: 0 0 15px 22px;
+	line-height: 160%;
+	color: #555555;
+	padding: 0;
+}
+
+/* -TYPOGRAPHY- */
+h1, h2, h3, h4, h5, h6 {
+	padding: 0 0 10px 0;
+	color: #FF767F;
+	font-weight: normal;
+	line-height: 130%;
+	margin-bottom: 30px;
+}
+.name {
+	color: #E58378;
+}
+h1 {
+	display: none;
+}
+h2 {
+	font-size: 14px;
+	color: #CCCCCC;
+	background: url('/images/gr/line.png') center bottom repeat-x;
+}
+h3 {
+	font-size: 13px;
+}
+h4 {
+	font-size: 12px;
+}
+h5 {
+	font-size: 11px;
+}
+h6 {
+	font-size: 11px;
+}
+p {
+	padding: 0;
+	line-height: 160%;
+	color: #ffffff;
+	margin-bottom: 10px;
+}
+	.main-content p {
+	}
+.small {
+	font-size: 10px;
+}
+
+/* TABULKY */
+td, th {
+	padding: 0 5px 0 5px;
+	text-align: center;
+}
+	thead th {
+		background: #FF767F;
+		color: white;
+		font-weight: bold;
+		padding: 15px 5px 15px 5px;
+		text-align: center;
+	}
+	tfoot td {
+		background: #E58378;
+		color: white;
+		font-weight: bold;
+	}
+table {
+	width: 100%;
+	background: #223151;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	margin: 0;
+}
+	tr.todd {
+		background: #192339;
+	}
+	tr:hover {
+		background: #2A3C65;
+	}
+	.ja {
+		background: #3E599A !important;
+	}
+	.ok {
+		color: #A4E93C;
+	}
+
+.t100 {
+	height: 325px;
+	overflow: scroll;
+}
+	.skore td {
+		padding: 10px;
+		text-align: right;
+		border-bottom: 1px solid white;
+	}
+
+/* FORMULÁŘE */
+input[type=text], textarea {
+	border: 2px solid #ffffff;
+	background: #FFFFFF;
+}
+	
+	input[type=text]:focus, textarea:focus {
+		border-color: #E58378;
+	}
+	input[type=image], input[type=submit] {
+		cursor: pointer;
+		height: 25px;
+		padding: 0 3px 0 3px;
+	}
+	input[type=image] {
+		border: none;
+		background: none;
+		width: auto;
+		height: auto;
+	}
+input[type=text], input[type=password], input[type=file] {
+	height: 21px;
+	padding: 3px 0 0 3px;
+	width: 552px;
+}
+textarea {
+	height: 90px;
+	resize: none;
+	width: 555px;
+}
+
+.very-important {
+	overflow: hidden;
+	position: absolute;
+	left: -5000px;
+	visibility: hidden;
+}

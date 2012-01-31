@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+@import url('/css/style-reset.css'); 									/* resetovací styl */
+@import url('/css/style-basic.css'); 									/* základní styl */
+
+@import url('/libraries/ui-darkness/jquery-darkness.css'); 		/* jquery styl */
+@import url('/css/style-efect.css'); 									/* js styl */
+
+@import url('/css/style-layout.css'); 									/* layout styl */

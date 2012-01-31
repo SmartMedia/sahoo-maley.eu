@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+* {
+	color: black;
+	font-size: 12pt;
+	background: none;
+	font-family: arial, verdana, tahoma, sans-serif;
+	border: none;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td {
+	padding: 10px;
+	border: 1px solid gray !important;
+}
